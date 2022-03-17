@@ -1,0 +1,33 @@
+body {
+    background: url(def.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 100px 50px;
+}
+
+h1 {
+    text-align: center;
+    color: blue;
+}
+
+.formulario {
+    padding: 10px;
+    text-align: center;
+}
+
+.formulario input {
+    padding: 2px;
+    margin: 5px;
+}
+
+#resultado {
+    padding: 10px;
+    text-align: center;
+}
+
+#boton {
+    background-color: rgb(74, 75, 88);
+    color: white;
+    margin-left: 120px;
+}

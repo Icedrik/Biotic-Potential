@@ -1,0 +1,32 @@
+body {
+    background: url(def.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 100px 50px;
+    color: rgb(3, 0, 0);
+}
+
+h1 {
+    text-align: center;
+    color: rgb(248, 10, 10);
+}
+
+.box1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1000px;
+    height: 100px;
+}
+
+.box1 img {
+    justify-content: center;
+    align-items: center;
+    width: 700px;
+    height: 350px;
+}
+
+.background {
+    opacity: 15;
+}

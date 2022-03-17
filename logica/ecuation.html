@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="ecuation.css">
+    <title>Calculate Biotic Potential</title>
+</head>
+
+<body>
+
+    <h1>Calculate</h1>
+    <ul>
+        <li><a href="../mainpage.html">Main page</a></li>
+        <li><a href="../information.html">Biotic Potential </a></li>
+        <li><a href="">Calculate</a></li>
+    </ul>
+    <P>To calculate it is necessary to take into account 3 values: initial population (therefore the population taken at time zero) which we will denote by No, final population at a given time which is denoted as Nt and time which is the time interval from
+        which we want to obtain the biotic potential.</P>
+    <p>The ecuation is the next:</p>
+    <center>
+        <img src="ecuation1.png">
+    </center>
+    <p>The biotic potential is represented by the letter r and this equation is valid if it is determined that the behavior of the study population tends to exponential growth. The biotic potential is represented by the letter r and this equation is valid
+        if it is determined that the behavior of the study population tends to exponential growth. Now you only have to enter the desired values for each variable to obtain the biotic potential for the conditions you specify.</p>
+    <br><br />
+    <form class="formulario">
+        <!-- Cuadros de Texto para capturar datos -->
+        Ingrese el valor de Nt <input type="text" name="Nt" id="Nt" /><br />
+        <br />Ingrese el valor de No <input type="text" name="No" id="No" /><br />
+        <br />Ingrese el valor de t <input type="text" name="t" id="t" /><br />
+        <!-- Se crea el boton para llamar a la funcion captura de JavaScript -->
+        <br /><button type="button" onclick="captura()" id="boton">Enviar</button>
+    </form>
+    <div id="resultado"></div>
+    <script type="text/javascript" src="ecuacion1.js"></script>
+</body>
+
+</html>
